@@ -1,16 +1,13 @@
-
-  
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Faucet Failures</title>
+    <title>Unity WebGL Player | faucetFailures</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body style="background-color:#F4B15B">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -27,11 +24,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/FaucetFailuresWeb.loader.js";
+      var loaderUrl = buildUrl + "/FaucetFailures.loader.js";
       var config = {
-        dataUrl: buildUrl + "/FaucetFailuresWeb.data",
-        frameworkUrl: buildUrl + "/FaucetFailuresWeb.framework.js",
-        codeUrl: buildUrl + "/FaucetFailuresWeb.wasm",
+        dataUrl: buildUrl + "/FaucetFailures.data",
+        frameworkUrl: buildUrl + "/FaucetFailures.framework.js",
+        codeUrl: buildUrl + "/FaucetFailures.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "faucetFailures",
