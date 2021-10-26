@@ -11,7 +11,7 @@ This site is currently piped through google sites, we redirect to www.faucetfail
 ### HTML Edits
 
 Currently we are using this for our background color: body style="background-color:#F4B15B" on index.html
-We are also using this tag inside of the <head> </head> tags to open links in new windows for all of our links: <base target="_blank"/>
+We are also using this tag inside of the <head> </head> tags to open links in new windows for all of our links: "<base target="_blank"/>"
 
 ### Support or Contact
 
