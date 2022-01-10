@@ -1,4 +1,4 @@
-## Welcome Facuet Failures (Cambridge) github Live!
+## Welcome Faucet Failures (Cambridge) Github Live!
 
 You can use the [editor on GitHub](https://github.com/FaucetFailures/Play/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
