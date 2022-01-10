@@ -6,9 +6,8 @@
     <title>Unity WebGL Player | Faucet Failures</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <base target="_blank"/>
   </head>
-  <body style="background-color:#F4B15B">
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -57,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/faucetfailures.loader.js";
+      var loaderUrl = buildUrl + "/WEBGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/faucetfailures.data",
-        frameworkUrl: buildUrl + "/faucetfailures.framework.js",
-        codeUrl: buildUrl + "/faucetfailures.wasm",
+        dataUrl: buildUrl + "/WEBGL.data",
+        frameworkUrl: buildUrl + "/WEBGL.framework.js",
+        codeUrl: buildUrl + "/WEBGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Cambridge Mass",
         productName: "Faucet Failures",
